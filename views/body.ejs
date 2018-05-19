@@ -1,0 +1,14 @@
+<h1>Loop it!</h1>
+<% if(email){ %>
+    <h2>Welcome!  </h2>
+    <h2>Email : <%= email %></h2>
+    <h2>Famiily Name : <%= familyName %></h2>
+    <h2>Given Name : <%= givenName %></h2>
+    
+<% }else{ %>
+    <h2> Please Login. </h2>
+<% } %>
+
+<a href="/auth/google"><h2>google login</h2></a>
+<a href="/auth/facebook"><h2>facebook login</h2></a>
+<a href="/logout"><h2>logout</h2></a>
